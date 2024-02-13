@@ -16,5 +16,6 @@ set(EXE_ARRAY_7 array_exe_7)
 set(EXE_ARRAY_8 array_exe_8)
 set(EXE_ARRAY_9 array_exe_9)
 set(EXE_ARRAY_10 array_exe_10)
+set(EXE_ARRAY_11 array_exe_11)
 
 add_subdirectory(arrays)

@@ -28,6 +28,10 @@ set(EXE_SOURCES_9
 set(EXE_SOURCES_10
     min_jumps_to_the_end.cpp)
 
+set(EXE_SOURCES_11
+    min_max_diff_heights.cpp)
+
+
 add_executable(${EXE_ARRAY_1} ${EXE_SOURCES_1})
 add_executable(${EXE_ARRAY_2} ${EXE_SOURCES_2})
 add_executable(${EXE_ARRAY_3} ${EXE_SOURCES_3})
@@ -38,3 +42,4 @@ add_executable(${EXE_ARRAY_7} ${EXE_SOURCES_7})
 add_executable(${EXE_ARRAY_8} ${EXE_SOURCES_8})
 add_executable(${EXE_ARRAY_9} ${EXE_SOURCES_9})
 add_executable(${EXE_ARRAY_10} ${EXE_SOURCES_10})
+add_executable(${EXE_ARRAY_11} ${EXE_SOURCES_11})
