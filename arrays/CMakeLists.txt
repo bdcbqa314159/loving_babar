@@ -31,6 +31,18 @@ set(EXE_SOURCES_10
 set(EXE_SOURCES_11
     min_max_diff_heights.cpp)
 
+set(EXE_SOURCES_12
+    find_duplicates.cpp)
+
+set(EXE_SOURCES_13
+    merge_two_arrays.cpp)
+
+set(EXE_SOURCES_14
+    merging_intervals.cpp)
+
+set(EXE_SOURCES_15
+    next_permutation.cpp)
+
 
 add_executable(${EXE_ARRAY_1} ${EXE_SOURCES_1})
 add_executable(${EXE_ARRAY_2} ${EXE_SOURCES_2})
@@ -43,3 +55,7 @@ add_executable(${EXE_ARRAY_8} ${EXE_SOURCES_8})
 add_executable(${EXE_ARRAY_9} ${EXE_SOURCES_9})
 add_executable(${EXE_ARRAY_10} ${EXE_SOURCES_10})
 add_executable(${EXE_ARRAY_11} ${EXE_SOURCES_11})
+add_executable(${EXE_ARRAY_12} ${EXE_SOURCES_12})
+add_executable(${EXE_ARRAY_13} ${EXE_SOURCES_13})
+add_executable(${EXE_ARRAY_14} ${EXE_SOURCES_14})
+add_executable(${EXE_ARRAY_15} ${EXE_SOURCES_15})
