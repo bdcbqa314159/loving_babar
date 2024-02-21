@@ -43,6 +43,30 @@ set(EXE_SOURCES_14
 set(EXE_SOURCES_15
     next_permutation.cpp)
 
+set(EXE_SOURCES_16
+    count_inversion.cpp)
+
+set(EXE_SOURCES_17
+    max_profit.cpp)
+
+set(EXE_SOURCES_18
+    count_pairs_given_sum.cpp)
+
+set(EXE_SOURCES_19
+    common_elements_three_arrays.cpp)
+
+set(EXE_SOURCES_20
+    alternate_neg_pos_no_extra_space.cpp)
+
+set(EXE_SOURCES_21
+    subarray_with_zero_sum.cpp)
+
+set(EXE_SOURCES_22
+    big_factorial.cpp)
+
+set(EXE_SOURCES_23
+    max_product_subarray.cpp)
+
 
 add_executable(${EXE_ARRAY_1} ${EXE_SOURCES_1})
 add_executable(${EXE_ARRAY_2} ${EXE_SOURCES_2})
@@ -59,3 +83,11 @@ add_executable(${EXE_ARRAY_12} ${EXE_SOURCES_12})
 add_executable(${EXE_ARRAY_13} ${EXE_SOURCES_13})
 add_executable(${EXE_ARRAY_14} ${EXE_SOURCES_14})
 add_executable(${EXE_ARRAY_15} ${EXE_SOURCES_15})
+add_executable(${EXE_ARRAY_16} ${EXE_SOURCES_16})
+add_executable(${EXE_ARRAY_17} ${EXE_SOURCES_17})
+add_executable(${EXE_ARRAY_18} ${EXE_SOURCES_18})
+add_executable(${EXE_ARRAY_19} ${EXE_SOURCES_19})
+add_executable(${EXE_ARRAY_20} ${EXE_SOURCES_20})
+add_executable(${EXE_ARRAY_21} ${EXE_SOURCES_21})
+add_executable(${EXE_ARRAY_22} ${EXE_SOURCES_22})
+add_executable(${EXE_ARRAY_23} ${EXE_SOURCES_23})
