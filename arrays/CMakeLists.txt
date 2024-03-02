@@ -67,6 +67,47 @@ set(EXE_SOURCES_22
 set(EXE_SOURCES_23
     max_product_subarray.cpp)
 
+set(EXE_SOURCES_24
+    longest_consecutive_subsequence.cpp)
+
+set(EXE_SOURCES_25
+    appears_more_than_n_by_k.cpp)
+
+set(EXE_SOURCES_26
+    max_profit_buy_at_most_twice.cpp)
+
+set(EXE_SOURCES_27
+    array_subset_of_another.cpp)
+
+set(EXE_SOURCES_28
+    array_triplet_sum.cpp)
+
+set(EXE_SOURCES_29
+    trapping_water.cpp)
+
+set(EXE_SOURCES_30
+    chocolate_distribution.cpp)
+
+set(EXE_SOURCES_31
+    smallest_subarray_sum_greatest_than_value.cpp)
+
+set(EXE_SOURCES_32
+    three_way_partitioning_array.cpp)
+
+set(EXE_SOURCES_33
+    min_swaps_all_less_than_k.cpp)
+
+set(EXE_SOURCES_34
+    are_all_palindromes.cpp)
+
+set(EXE_SOURCES_35
+    median_same_size_arrays.cpp)
+
+set(EXE_SOURCES_36
+    median_different_size_arrays.cpp)
+
+set(EXE_SOURCES_37
+    min_moves_to_make_palindrome.cpp)
 
 add_executable(${EXE_ARRAY_1} ${EXE_SOURCES_1})
 add_executable(${EXE_ARRAY_2} ${EXE_SOURCES_2})
@@ -91,3 +132,17 @@ add_executable(${EXE_ARRAY_20} ${EXE_SOURCES_20})
 add_executable(${EXE_ARRAY_21} ${EXE_SOURCES_21})
 add_executable(${EXE_ARRAY_22} ${EXE_SOURCES_22})
 add_executable(${EXE_ARRAY_23} ${EXE_SOURCES_23})
+add_executable(${EXE_ARRAY_24} ${EXE_SOURCES_24})
+add_executable(${EXE_ARRAY_25} ${EXE_SOURCES_25})
+add_executable(${EXE_ARRAY_26} ${EXE_SOURCES_26})
+add_executable(${EXE_ARRAY_27} ${EXE_SOURCES_27})
+add_executable(${EXE_ARRAY_28} ${EXE_SOURCES_28})
+add_executable(${EXE_ARRAY_29} ${EXE_SOURCES_29})
+add_executable(${EXE_ARRAY_30} ${EXE_SOURCES_30})
+add_executable(${EXE_ARRAY_31} ${EXE_SOURCES_31})
+add_executable(${EXE_ARRAY_32} ${EXE_SOURCES_32})
+add_executable(${EXE_ARRAY_33} ${EXE_SOURCES_33})
+add_executable(${EXE_ARRAY_34} ${EXE_SOURCES_34})
+add_executable(${EXE_ARRAY_35} ${EXE_SOURCES_35})
+add_executable(${EXE_ARRAY_36} ${EXE_SOURCES_36})
+add_executable(${EXE_ARRAY_37} ${EXE_SOURCES_37})
